@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scr=new Scanner(System.in);
+        int x,y,z;
+        x=scr.nextInt();
+        y=scr.nextInt();
+        z=scr.nextInt();
+        System.out.println(x);
+        System.out.println(y);
+        System.out.println(z);
+    }
+}
