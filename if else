@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        if(a%2 !=0){
+            System.out.println("Weird");
+        }
+        else if(a%2==0 && a>20){
+            System.out.println("Not Weird");
+        }
+        else if(a%2==0 && a<=5 && a>2){
+            System.out.println("Not Weird");
+        }
+        else{
+            System.out.println("Weird");
+        }
+    }
+}
